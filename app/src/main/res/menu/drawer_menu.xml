@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            android:tint="#FFFFFF"
+
+            />
+        <item android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_appointment"
+            android:title="Appointment"
+            android:tint="#FFFFFF"
+
+            />
+        <item android:id="@+id/nav_Calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="Calendar"
+            android:tint="#FFFFFF"
+
+
+            />
+    </group>
+</menu>
